@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/portfolio.css">
   <link rel="stylesheet" href="css/responsivo.css">
+  <script>document.documentElement.classList.add("js");</script>
 
   <title>Bikcraft-Portfolio</title>
 </head>
@@ -33,18 +34,34 @@
   </header>
   <section class="introducao-interna interna_portfolio">
     <div class="container">
-      <h1>Portfolio</h1>
-      <p>Conheça mais do nosso portfolio</p>
+      <h1 data-anime="400" class="fadeInDown">Portfolio</h1>
+      <p data-anime="800">Conheça mais do nosso portfolio</p>
 
 
     </div>
 
   </section>
 
-  <section class="container">
+  <section class="container fadeInDown" data-slide="quote" data-anime="1200">
     <blockquote class="quote_clientes">
       <p>"No mundo atual a constante Lorem Lorem Lorem Lorem constante Lorem Lorem Lorem L Lorem L Lorem L Lorem LLorem LLorem LLorem LLorem LLorem LLorem LLorem LLorem LLorem LLorem LLorem LLorem L"</p>
       <cite>Barbara Moss</cite>
+    </blockquote>
+
+    <blockquote class="quote_clientes">
+      <p>"A E I O U FGDBBG A E I O U FGDBBGA E I O U FGDBBGA E I O U FGDBBGA E I O U FGDBBGA E I O U FGDBBGA E I O U FGDBBGA E I O U FGDBBGA E I O U FGDBBGA E I O U FGDBBGA E I O U FGDBBGA E I O U FGDBBG"</p>
+      <cite>João Victor</cite>
+    </blockquote>
+
+
+    <blockquote class="quote_clientes">
+      <p>"Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla BlaBla Bla Bla BlaBla Bla Bla Bla Bla Bla Bla BlaBla Bla Bla Bla Bla Bla Bla BlaBla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla "</p>
+      <cite>Beatriz Carvalho</cite>
+    </blockquote>
+
+    <blockquote class="quote_clientes">
+      <p>"LLorem Lorem LLorem LLorem Lorem LLorem LLorem Lorem LLoremLLorem Lorem LLoremLLorem Lorem LLorem LLorem Lorem LLorem LLorem Lorem LLorem LLorem Lorem LLorem LLorem Lorem LLorem LLorem Lorem LLorem LLorem Lorem LLorem "</p>
+      <cite>Guilherme </cite>
     </blockquote>
   </section>
 
@@ -54,7 +71,21 @@
 
 
   <section class="portfolio">
-    <div class="container">
+    <div class="container" data-slide="portfolio">
+      <ul class="portfolio_lista">
+
+        <li class="grid-8"><img src="img/portfolio/retro.jpg" alt="Bicicelta Retro"></li>
+        <li class="grid-8"><img src="img/portfolio/passeio.jpg" alt="Bicicelta Passeio"></li>
+        <li class="grid-16"><img src="img/portfolio/esporte.jpg" alt="Bicicelta Esporte"></li>
+      </ul>
+
+      <ul class="portfolio_lista">
+
+        <li class="grid-8"><img src="img/portfolio/passeio.jpg" alt="Bicicelta Retro"></li>
+        <li class="grid-8"><img src="img/portfolio/retro.jpg" alt="Bicicelta Passeio"></li>
+        <li class="grid-16"><img src="img/portfolio/esporte.jpg" alt="Bicicelta Esporte"></li>
+      </ul>
+
       <ul class="portfolio_lista">
 
         <li class="grid-8"><img src="img/portfolio/retro.jpg" alt="Bicicelta Retro"></li>
@@ -125,7 +156,9 @@
 
 
   </footer>
-
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/simple-slide.js"></script>
+  <script src="./js/script.js"></script>
 
 </body>
 
