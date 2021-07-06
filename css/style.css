@@ -105,12 +105,13 @@ margin-top:10px;
 }
 
 .subtitulo-interno:after{
-  content:"";
-  display:block;
-  width:60px;
-  height:3px;
-  background: #000;
-  margin:8px 0;
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 8px 0;
+  
 }
 
 .header_menu ul li a.menu_ativo {
